@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa Business Drops</title>
+    <meta name="description" content="Conectando empreendedores, investidores e mentores para impulsionar negócios inovadores">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/programa.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <!-- <header class="header">
+        <nav class="nav container">
+            <div class="nav-content">
+                <div class="logo">Business Drops</div>
+                <div class="nav-links">
+                    <a href="#eventos" class="nav-link">Eventos</a>
+                    <a href="#community" class="nav-link">B.D Community</a>
+                    <a href="#impacto" class="nav-link">Drops de Impacto</a>
+                </div>
+                <button class="mobile-menu-button">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header> -->
+    <header>
+        <h1>Business Drops</h1>
+        <nav>
+            <label for=""><a href="../index.html">Inicio</a></label>
+            <label for=""><a href="#eventos">Eventos</a></label>
+            <label for=""><a href="#community">B.D Community</a></label>
+            <label for=""><a href="#impacto">Drops de Impacto</a></label>
+            <a href="" class="btn-inscrever">Inscreve-se</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Programa Business Drops</h1>
+                <p class="hero-subtitle">Conectando empreendedores, investidores e mentores para impulsionar negócios inovadores</p>
+                <div class="hero-buttons">
+                    <a href="#eventos" class="button button-primary">Ver Eventos</a>
+                    <a href="#community" class="button button-secondary">Juntar-se à Comunidade</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Eventos Section -->
+        <section id="eventos" class="section eventos">
+            <div class="container">
+                <h2 class="section-title">Eventos</h2>
+                <div class="events-grid">
+                    <!-- Event 1 -->
+                    <div class="event-card">
+                        <img src="https://picsum.photos/600/400?random=1" alt="Evento 1" class="event-image">
+                        <div class="event-content">
+                            <div class="event-date">15 Outubro 2023</div>
+                            <h3 class="event-title">Workshop de Inovação</h3>
+                            <p class="event-description">Aprenda as melhores práticas para inovar no seu negócio com especialistas do mercado.</p>
+                            <button onclick="openForm('inscricao-evento')" class="button button-primary button-full">Inscrever-se</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Event 2 -->
+                    <div class="event-card">
+                        <img src="https://picsum.photos/600/400?random=2" alt="Evento 2" class="event-image">
+                        <div class="event-content">
+                            <div class="event-date">22 Novembro 2023</div>
+                            <h3 class="event-title">Networking para Startups</h3>
+                            <p class="event-description">Conecte-se com investidores e outros empreendedores para expandir sua rede.</p>
+                            <button onclick="openForm('inscricao-evento')" class="button button-primary button-full">Inscrever-se</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Event 3 -->
+                    <div class="event-card">
+                        <img src="https://picsum.photos/600/400?random=3" alt="Evento 3" class="event-image">
+                        <div class="event-content">
+                            <div class="event-date">10 Dezembro 2023</div>
+                            <h3 class="event-title">Mentoria Individual</h3>
+                            <p class="event-description">Sessões individuais com mentores experientes para orientação personalizada.</p>
+                            <button onclick="openForm('inscricao-evento')" class="button button-primary button-full">Inscrever-se</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Innovation Pitch Section -->
+                <div class="innovation-pitch">
+                    <h3 class="pitch-title">Innovation Pitch</h3>
+                    <p class="pitch-description">Uma oportunidade única para empreendedores apresentarem suas ideias inovadoras para investidores e especialistas do mercado. Participe e dê o próximo passo no crescimento do seu negócio.</p>
+                    
+                    <div class="videos-grid">
+                        <div class="video-card">
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="video-info">
+                                <h4 class="video-title">Pitch de Sucesso 2022</h4>
+                                <p class="video-description">Veja como esta startup conquistou investimento</p>
+                            </div>
+                        </div>
+                        
+                        <div class="video-card">
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="video-info">
+                                <h4 class="video-title">Dicas para um Pitch Perfeito</h4>
+                                <p class="video-description">Conselhos de investidores experientes</p>
+                            </div>
+                        </div>
+                        
+                        <div class="video-card">
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="video-info">
+                                <h4 class="video-title">Histórias Inspiradoras</h4>
+                                <p class="video-description">Empreendedores que transformaram suas ideias</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button onclick="openForm('participar-pitch')" class="button button-accent">Participar</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- B.D Community Section -->
+        <section id="community" class="section community">
+            <div class="container">
+                <h2 class="section-title">B.D Community</h2>
+                
+                <div class="community-content">
+                    <p class="community-description">Nossa comunidade reúne os melhores talentos, mentores e investidores para criar um ecossistema vibrante de inovação e crescimento empresarial.</p>
+                    
+                    <!-- Image Gallery -->
+                    <div class="members-gallery">
+                        <img src="https://picsum.photos/200?random=4" alt="Membro 1" class="member-photo">
+                        <img src="https://picsum.photos/200?random=5" alt="Membro 2" class="member-photo">
+                        <img src="https://picsum.photos/200?random=6" alt="Membro 3" class="member-photo">
+                        <img src="https://picsum.photos/200?random=7" alt="Membro 4" class="member-photo">
+                        <img src="https://picsum.photos/200?random=8" alt="Membro 5" class="member-photo">
+                    </div>
+                    
+                    <!-- Stats -->
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number">+100</div>
+                            <div class="stat-label">Empreendedores</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">+50</div>
+                            <div class="stat-label">Investidores</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">+20</div>
+                            <div class="stat-label">Mentores</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">+10</div>
+                            <div class="stat-label">Parceiros</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">+50</div>
+                            <div class="stat-label">Carreiras</div>
+                        </div>
+                    </div>
+                    
+                    <button onclick="openForm('cadastramento')" class="button button-primary">Juntar-se</button>
+                </div>
+                
+                <!-- Nossos Desafios -->
+                <div class="challenges-section">
+                    <h3 class="challenges-title">Nossos Desafios</h3>
+                    
+                    <div class="challenges-grid">
+                        <div class="challenge-card">
+                            <h4 class="challenge-name">Desafio de Sustentabilidade</h4>
+                            <p class="challenge-description">Desenvolva soluções inovadoras para problemas ambientais e concorra a prêmios e investimentos.</p>
+                            <button onclick="openForm('inscricao-desafio')" class="button button-primary button-small">Participar</button>
+                        </div>
+                        <div class="challenge-card">
+                            <h4 class="challenge-name">Desafio de Tecnologia</h4>
+                            <p class="challenge-description">Crie aplicações tecnológicas que resolvam problemas reais e ganhe visibilidade no mercado.</p>
+                            <button onclick="openForm('inscricao-desafio')" class="button button-primary button-small">Participar</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Comentários de Membros -->
+                <div class="testimonials-section">
+                    <h3 class="testimonials-title">O que dizem nossos membros</h3>
+                    
+                    <div class="testimonials-grid">
+                        <div class="testimonial-card">
+                            <div class="testimonial-author">
+                                <img src="https://picsum.photos/100?random=9" alt="Membro" class="author-photo">
+                                <div class="author-info">
+                                    <h4 class="author-name">Carlos Silva</h4>
+                                    <p class="author-role">Empreendedor</p>
+                                </div>
+                            </div>
+                            <p class="testimonial-text">"O Business Drops me conectou com investidores que acreditaram no meu projeto e hoje minha startup está crescendo rapidamente."</p>
+                        </div>
+                        
+                        <div class="testimonial-card">
+                            <div class="testimonial-author">
+                                <img src="https://picsum.photos/100?random=10" alt="Membro" class="author-photo">
+                                <div class="author-info">
+                                    <h4 class="author-name">Ana Oliveira</h4>
+                                    <p class="author-role">Investidora</p>
+                                </div>
+                            </div>
+                            <p class="testimonial-text">"Encontrei projetos incríveis através desta plataforma. A curadoria é excelente e facilita encontrar boas oportunidades."</p>
+                        </div>
+                        
+                        <div class="testimonial-card">
+                            <div class="testimonial-author">
+                                <img src="https://picsum.photos/100?random=11" alt="Membro" class="author-photo">
+                                <div class="author-info">
+                                    <h4 class="author-name">Roberto Santos</h4>
+                                    <p class="author-role">Mentor</p>
+                                </div>
+                            </div>
+                            <p class="testimonial-text">"Mentorar através do Business Drops tem sido uma experiência enriquecedora. Ver os projetos evoluindo é muito gratificante."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Drops de Impacto Section -->
+        <section id="impacto" class="section impacto">
+            <div class="container">
+                <h2 class="section-title">Drops de Impacto</h2>
+                
+                <div class="impacto-content">
+                    <p class="impacto-description">Nossos Drops de Impacto são eventos e conteúdos especiais criados para gerar transformação real no ecossistema empreendedor.</p>
+                    
+                    <div class="impacto-videos">
+                        <div class="impacto-video-card">
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video Impacto 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <h4 class="video-title">Histórias de Impacto</h4>
+                            <p class="video-description">Conheça projetos que estão mudando realidades</p>
+                        </div>
+                        
+                        <div class="impacto-video-card">
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Video Impacto 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <h4 class="video-title">Casos de Sucesso</h4>
+                            <p class="video-description">Empresas que cresceram com nossa ajuda</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Próximo Evento Presencial -->
+                    <div class="evento-presencial">
+                        <h3 class="evento-title">Próximo Evento Presencial</h3>
+                        <p class="evento-description">Não perca nosso próximo grande encontro presencial com palestras, networking e oportunidades exclusivas.</p>
+                        <button onclick="openForm('evento-presencial')" class="button button-secondary">Quero Participar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Forms (hidden by default) -->
+        <div id="form-overlay" class="form-overlay">
+            <div id="form-container" class="form-container">
+                <div class="form-header">
+                    <h3 id="form-title" class="form-title"></h3>
+                    <button onclick="closeForm()" class="close-button">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                
+                <form id="current-form" class="form">
+                    <!-- Form fields will be dynamically inserted here -->
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4 class="footer-title">Business Drops</h4>
+                    <p class="footer-text">Conectando o ecossistema empreendedor para criar impacto real.</p>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="sobre.html" class="footer-link">Quem somos</a></li>
+                        <li><a href="programa.html" class="footer-link">Programa B.D</a></li>
+                        <li><a href="oficina.html" class="footer-link">360 Graus</a></li>
+                        <li><a href="" class="footer-link">Inscrição</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Contato</h4>
+                    <ul class="footer-contacts">
+                        <li class="footer-contact"><i class="fas fa-envelope"></i>
+                            <span>contato@businessdrops.com</span></li>
+                        <li class="footer-contact"><i class="fas fa-phone"></i> <span>+55 11 98765-4321</span></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Redes Sociais</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Business Drops. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Form templates
+        const forms = {
+            "inscricao-evento": {
+                title: "Inscrição em Evento",
+                fields: [
+                    { type: "text", name: "nome", label: "Nome Completo", required: true },
+                    { type: "email", name: "email", label: "E-mail", required: true },
+                    { type: "tel", name: "telefone", label: "Telefone", required: true },
+                    { type: "select", name: "evento", label: "Evento", options: ["Workshop de Inovação", "Networking para Startups", "Mentoria Individual"], required: true },
+                    { type: "textarea", name: "motivacao", label: "Por que deseja participar?", required: false }
+                ],
+                submitText: "Enviar Inscrição"
+            },
+            "participar-pitch": {
+                title: "Participar do Innovation Pitch",
+                fields: [
+                    { type: "text", name: "nome", label: "Nome Completo", required: true },
+                    { type: "email", name: "email", label: "E-mail", required: true },
+                    { type: "tel", name: "telefone", label: "Telefone", required: true },
+                    { type: "select", name: "tipo", label: "Você é:", options: ["Empreendedor", "Investidor", "Patrocinador"], required: true },
+                    { type: "text", name: "empresa", label: "Nome da Empresa/Startup", required: false },
+                    { type: "textarea", name: "ideia", label: "Descreva brevemente sua ideia/projeto", required: false }
+                ],
+                submitText: "Enviar Inscrição"
+            },
+            "cadastramento": {
+                title: "Juntar-se à Comunidade",
+                fields: [
+                    { type: "text", name: "nome", label: "Nome Completo", required: true },
+                    { type: "email", name: "email", label: "E-mail", required: true },
+                    { type: "tel", name: "telefone", label: "Telefone", required: true },
+                    { type: "select", name: "tipo", label: "Quero me cadastrar como:", options: ["Empreendedor", "Investidor", "Parceiro", "Carreira", "Mentor"], required: true },
+                    { type: "textarea", name: "sobre", label: "Conte-nos sobre você/empresa", required: false }
+                ],
+                submitText: "Enviar Cadastro"
+            },
+            "inscricao-desafio": {
+                title: "Inscrição em Desafio",
+                fields: [
+                    { type: "text", name: "nome", label: "Nome Completo", required: true },
+                    { type: "email", name: "email", label: "E-mail", required: true },
+                    { type: "tel", name: "telefone", label: "Telefone", required: true },
+                    { type: "select", name: "desafio", label: "Desafio", options: ["Desafio de Sustentabilidade", "Desafio de Tecnologia"], required: true },
+                    { type: "textarea", name: "solucao", label: "Descreva sua solução proposta", required: true }
+                ],
+                submitText: "Enviar Inscrição"
+            },
+            "evento-presencial": {
+                title: "Evento Presencial",
+                fields: [
+                    { type: "text", name: "nome", label: "Nome Completo", required: true },
+                    { type: "email", name: "email", label: "E-mail", required: true },
+                    { type: "tel", name: "telefone", label: "Telefone", required: true },
+                    { type: "select", name: "tipo", label: "Você é:", options: ["Empreendedor", "Investidor", "Mentor", "Outro"], required: true },
+                    { type: "text", name: "empresa", label: "Empresa (se aplicável)", required: false },
+                    { type: "textarea", name: "expectativas", label: "O que espera do evento?", required: false }
+                ],
+                submitText: "Confirmar Participação"
+            }
+        };
+
+        // Form handling functions
+        function openForm(formId) {
+            const formData = forms[formId];
+            if (!formData) return;
+            
+            document.getElementById("form-title").textContent = formData.title;
+            const formContainer = document.getElementById("current-form");
+            formContainer.innerHTML = "";
+            
+            formData.fields.forEach(field => {
+                const fieldGroup = document.createElement("div");
+                fieldGroup.className = "form-group";
+                
+                const label = document.createElement("label");
+                label.className = "form-label";
+                label.textContent = field.label;
+                if (field.required) label.innerHTML += ' <span class="required">*</span>';
+                fieldGroup.appendChild(label);
+                
+                let input;
+                if (field.type === "textarea") {
+                    input = document.createElement("textarea");
+                    input.className = "form-textarea";
+                    input.rows = 3;
+                } else if (field.type === "select") {
+                    input = document.createElement("select");
+                    input.className = "form-select";
+                    field.options.forEach(option => {
+                        const opt = document.createElement("option");
+                        opt.value = option;
+                        opt.textContent = option;
+                        input.appendChild(opt);
+                    });
+                } else {
+                    input = document.createElement("input");
+                    input.type = field.type;
+                    input.className = "form-input";
+                }
+                
+                input.name = field.name;
+                input.required = field.required || false;
+                fieldGroup.appendChild(input);
+                formContainer.appendChild(fieldGroup);
+            });
+            
+            const submitBtn = document.createElement("button");
+            submitBtn.type = "button";
+            submitBtn.className = "form-submit";
+            submitBtn.textContent = formData.submitText;
+            submitBtn.onclick = function() {
+                alert("Formulário enviado com sucesso! Entraremos em contato em breve.");
+                closeForm();
+            };
+            formContainer.appendChild(submitBtn);
+            
+            document.getElementById("form-overlay").classList.remove("hidden");
+        }
+
+        function closeForm() {
+            document.getElementById("form-overlay").classList.add("hidden");
+        }
+
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-button').addEventListener('click', function() {
+            const nav = document.querySelector('.nav-links');
+            nav.classList.toggle('mobile-visible');
+        });
+    </script>
+</body>
+</html>

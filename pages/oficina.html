@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa de Empreendedorismo</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/oficina.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Barra de Navegação -->
+    <!-- <header class="header">
+        <nav class="navbar">
+            <div class="logo">Empreende+</div>
+            <ul class="nav-links">
+                <li><a href="#oficina360">Oficina 360°</a></li>
+                <li><a href="#trilha">Trilha do Empreendedor</a></li>
+                <li><a href="#pre-aceleracao">Pré-Aceleração</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header> -->
+
+    <header>
+        <h1>Business Drops</h1>
+        <nav>
+            <label for=""><a href="../index.html">Inicio</a></label>
+            <label for=""><a href="#oficina360">Oficina 360</a></label>
+            <label for=""><a href="#trilha">Trilha do Empreendedor</a></label>
+            <label for=""><a href="#pre-aceleracao">Pré-Aceleração</a></label>            <a href="" class="btn-inscrever">Inscreve-se</a>
+        </nav>
+    </header>
+
+    <!-- Seção Oficina 360 -->
+    <section id="oficina360" class="section oficina-section">
+        <div class="container">
+            <h2 class="section-title">Oficina 360°</h2>
+            
+            <!-- Sessão de Vídeos -->
+            <div class="videos-container">
+                <h3 class="subsection-title">Nossos Vídeos</h3>
+                <div class="video-grid">
+                    <div class="video-card">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+                        <h4>Introdução à Oficina 360°</h4>
+                    </div>
+                    <div class="video-card">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+                        <h4>Depoimentos de Participantes</h4>
+                    </div>
+                    <div class="video-card">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
+                        <h4>Cases de Sucesso</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sessão Descrição Geral -->
+            <div class="description-container">
+                <h3 class="subsection-title">Sobre a Oficina 360°</h3>
+                <p>A Oficina 360° é um programa completo que oferece uma visão holística do empreendedorismo. Através de workshops, mentorias e networking, ajudamos você a desenvolver todas as habilidades necessárias para transformar sua ideia em um negócio de sucesso.</p>
+                <p>Nosso método exclusivo aborda todas as áreas do negócio, desde a concepção da ideia até a captação de investimentos, passando por marketing, finanças e gestão de pessoas.</p>
+            </div>
+
+            <!-- Sessão Serviços Prestados -->
+            <div class="services-container">
+                <h3 class="subsection-title">Serviços Prestados</h3>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h4>Mentorias Individuais</h4>
+                        <p>Sessões personalizadas com especialistas para orientação específica sobre seu negócio.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-users"></i>
+                        <h4>Workshops Temáticos</h4>
+                        <p>Encontros para desenvolvimento de habilidades específicas do empreendedor.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Análise de Negócio</h4>
+                        <p>Avaliação completa do seu modelo de negócios com plano de ação.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sessão Inscrição -->
+            <div class="registration-container">
+                <h3 class="registration-title">Participe da Oficina 360°</h3>
+                <p>Junte-se a centenas de empreendedores que já transformaram seus negócios com nossa metodologia. A próxima turma começa em breve - garanta sua vaga!</p>
+                <button class="cta-button" onclick="openRegistrationForm('oficina360')">Inscrever-se</button>
+            </div>
+
+            <!-- Sessão Comentários -->
+            <div class="testimonials-container">
+                <h3 class="subsection-title">O que dizem nossos participantes</h3>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Participante">
+                        <p>"A Oficina 360° mudou minha visão sobre empreendedorismo. Hoje meu negócio está 3x maior!"</p>
+                        <h5>Ana Silva</h5>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Participante">
+                        <p>"As mentorias me ajudaram a estruturar meu plano de negócios e atrair investidores."</p>
+                        <h5>Carlos Oliveira</h5>
+                        <div class="rating">★★★★☆</div>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Participante">
+                        <p>"A rede de contatos que construí na Oficina foi fundamental para meu crescimento."</p>
+                        <h5>Mariana Santos</h5>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Trilha do Empreendedor -->
+    <section id="trilha" class="section trilha-section">
+        <div class="container">
+            <h2 class="section-title">Trilha do Empreendedor</h2>
+            
+            <!-- Sessão de Vídeos -->
+            <div class="videos-container">
+                <h3 class="subsection-title">Conheça a Trilha</h3>
+                <div class="video-grid">
+                    <div class="video-card">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID_4" frameborder="0" allowfullscreen></iframe>
+                        <h4>Introdução à Trilha</h4>
+                    </div>
+                    <div class="video-card">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID_5" frameborder="0" allowfullscreen></iframe>
+                        <h4>Módulos Disponíveis</h4>
+                    </div>
+                    <div class="video-card">
+                        <iframe src="https://www.youtube.com/embed/VIDEO_ID_6" frameborder="0" allowfullscreen></iframe>
+                        <h4>Depoimentos</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sessão Descrição Geral -->
+            <div class="description-container">
+                <h3 class="subsection-title">Sobre a Trilha</h3>
+                <p>A Trilha do Empreendedor é um programa de desenvolvimento progressivo que guia você desde os primeiros passos no empreendedorismo até a consolidação do seu negócio.</p>
+                <p>Com módulos sequenciais e conteúdo prático, você avança no seu próprio ritmo, com suporte de mentores e uma comunidade de empreendedores.</p>
+            </div>
+
+            <!-- Sessão Participar -->
+            <div class="participate-container">
+                <h3 class="subsection-title">Comece sua Jornada</h3>
+                <p>Dê o primeiro passo para transformar sua ideia em realidade. A Trilha do Empreendedor está esperando por você!</p>
+                <button class="cta-button" onclick="startTrilha()">Começar Trilha</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Pré-Aceleração -->
+    <section id="pre-aceleracao" class="section pre-aceleracao-section">
+        <div class="container">
+            <h2 class="section-title">Pré-Aceleração</h2>
+            
+            <!-- Conteúdo será adicionado aqui -->
+            <div class="coming-soon">
+                <i class="fas fa-rocket"></i>
+                <h3>Em Breve</h3>
+                <p>Estamos preparando um conteúdo incrível para você!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal de Inscrição -->
+    <div id="registrationModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <h3 id="modalTitle">Formulário de Inscrição</h3>
+            <form id="registrationForm">
+                <div class="form-group">
+                    <label for="name">Nome Completo</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="program">Programa de Interesse</label>
+                    <select id="program" name="program" required>
+                        <option value="">Selecione</option>
+                        <option value="oficina360">Oficina 360°</option>
+                        <option value="trilha">Trilha do Empreendedor</option>
+                        <option value="pre-aceleracao">Pré-Aceleração</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-button">Enviar Inscrição</button>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4 class="footer-title">Business Drops</h4>
+                    <p class="footer-text">Conectando o ecossistema empreendedor para criar impacto real.</p>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="sobre.html" class="footer-link">Quem somos</a></li>
+                        <li><a href="programa.html" class="footer-link">Programa B.D</a></li>
+                        <li><a href="oficina.html" class="footer-link">360 Graus</a></li>
+                        <li><a href="" class="footer-link">Inscrição</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Contato</h4>
+                    <ul class="footer-contacts">
+                        <li class="footer-contact"><i class="fas fa-envelope"></i>
+                            <span>contato@businessdrops.com</span></li>
+                        <li class="footer-contact"><i class="fas fa-phone"></i> <span>+55 11 98765-4321</span></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Redes Sociais</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Business Drops. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Funções para o modal
+        function openRegistrationForm(program) {
+            document.getElementById('modalTitle').textContent = program === 'oficina360' 
+                ? 'Inscrição - Oficina 360°' 
+                : 'Inscrição - Trilha do Empreendedor';
+            document.getElementById('program').value = program;
+            document.getElementById('registrationModal').style.display = 'block';
+        }
+
+        function startTrilha() {
+            // Redirecionar para o painel da trilha
+            window.location.href = "trilha-painel.html";
+        }
+
+        function closeModal() {
+            document.getElementById('registrationModal').style.display = 'none';
+        }
+
+        // Fechar modal ao clicar fora
+        window.onclick = function(event) {
+            const modal = document.getElementById('registrationModal');
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        }
+
+        // Menu mobile
+        document.querySelector('.mobile-menu').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+
+        // Form submission
+        document.getElementById('registrationForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Inscrição enviada com sucesso! Entraremos em contato em breve.');
+            closeModal();
+        });
+    </script>
+</body>
+</html>
