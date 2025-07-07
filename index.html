@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script/slider.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Business Drops</h1>
+        <nav>
+            <label for="quemsomos">Quem somos</label>
+            <label for=""><a href="pages/programa.html">Programa Business Drops</a></label>
+            <label for=""><a href="pages/oficina.html">360°</a></label>
+            <label for="insights">Insights</label>
+            <a href="" class="btn-inscrever">Inscreve-se</a>
+        </nav>
+        <div class="menu-toggle" onclick="document.querySelector('header nav').classList.toggle('active')">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <main id="slide">
+        <div class="sms-boas-vindas">
+            <h1>
+                Negocios que transformam realidades locais
+            </h1>
+            <a href="">Descubra como participar</a>
+        </div>
+    </main>
+    <div class="sobre">
+        <div class="sobre-fundo-escuro">
+            <input type="radio" id="quemsomos" class="inputs">
+            <div onclick="playVideo()" class="box-video">
+                <p class="play-video">▶</p>
+            </div>
+            <div class="sobre-content">
+                <h2>Sobre o Business Drops</h2>
+                <p>
+                    Business Drops é uma plataforma de desenvolvimento de negócios com foco em impacto económico, social
+                    e
+                    ambiental
+                    Atuamos como um ecossistema colaborativo que conecta jovens, empreendedores, mentores, investidores
+                    e
+                    especialistas,
+                    promovendo a geração de soluções práticas para os desafios do cotidiano das comunidades locais
+                    <a href="pages/sobre.html">mais</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="caminhos">
+        <h3>Seis caminhos para ti</h3>
+        <div class="container-caminhos" data-aos="fade-up" data-aos-duration="3000">
+            <div class="card-caminhos">
+                <label for=""><i class="fas fa-lightbulb"></i> <b>Empreendedores</b></label>
+                <p>
+                    Descubra como acelerar sua ideia, testar soluções reais, conectar-se com investidores e cocriar um
+                    futuro sustentável ao lado de outros jovens visionários.
+                </p>
+                <a href="">Saber mais</a>
+            </div>
+            <div class="card-caminhos">
+                <label for=""><i class="fas fa-user-tie"></i> <b>Mentores</b></label>
+                <p>
+                    Conecte-se com jovens determinados, contribua com sua experiência e ajude a transformar ideias em
+                    negócios reais com impacto.
+                </p>
+                <a href="">Saber mais</a>
+            </div>
+            <div class="card-caminhos">
+                <label for=""><i class="fas fa-hand-holding-usd"></i> <b>Investidores</b></label>
+                <p>
+                    Descubra negócios com propósito, conheça empreendedores resilientes e faça parte de uma rede que
+                    acelera transformação social com responsabilidade.
+                </p>
+                <a href="">Saber mais</a>
+            </div>
+        </div>
+        <div class="container-caminhos" data-aos="fade-up" data-aos-duration="3000">
+            <div class="card-caminhos">
+                <label for=""><i class="fas fa-briefcase"></i> <b>Carreira</b></label>
+                <p>
+                    Quer trabalhar com o que acredita? Junte-se a empresas, startups e iniciativas que estão
+                    transformando realidades locais.
+                </p>
+                <a href="">Saber mais</a>
+            </div>
+            <div class="card-caminhos">
+                <label for=""><i class="fas fa-hands-helping"></i> <b>Apoiadores</b></label>
+                <p>
+                    Se você ou sua organização acredita no poder da juventude para transformar realidades locais, venha
+                    apoiar o Business Drops.
+                </p>
+                <a href="">Saber mais</a>
+            </div>
+            <div class="card-caminhos">
+                <label for=""><i class="fas fa-tools"></i> <b>Construtores</b></label>
+                <p>
+                    Você conhece os problemas da sua comunidade como ninguém. Agora, pode ajudar a mapear essas
+                    necessidades, inspirar soluções e atrair projetos de impacto.
+                </p>
+                <a href="">Saber mais</a>
+            </div>
+        </div>
+    </div>
+    <div class="eventos">
+        <div class="eventos-fundo-escuro">
+            <h4>Próximos eventos</h4>
+            <div class="container-eventos" data-aos="fade-up" data-aos-duration="3000">
+                <button class="btn-evento left" onclick="mudarEvento(-1)"><i class="fas fa-chevron-left"></i></button>
+                <div class="cards-eventos">
+                    <p class="data">18 Maio 2025</p>
+                    <label for=""><b>Business Drops</b></label>
+                    <p class="eventos-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus</p>
+                    <a href="">Inscreve-se</a>
+                </div>
+                <div class="cards-eventos destaque-evento">
+                    <p class="data">18 Maio 2025</p>
+                    <label for=""><b>Drops de Impacto</b></label>
+                    <p class="eventos-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus</p>
+                    <a href="">Inscreve-se</a>
+                </div>
+                <div class="cards-eventos">
+                    <p class="data">18 Maio 2025</p>
+                    <label for=""><b>Business summit</b></label>
+                    <p class="eventos-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus</p>
+                    <a href="">Inscreve-se</a>
+                </div>
+                <button class="btn-evento right" onclick="mudarEvento(1)"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <a href="" class="btn-mais-eventos"><b>Ver mais eventos</b></a>
+        </div>
+    </div>
+    <div class="container-impacto">
+        <h2>Resultados e impactos</h2>
+        <div class="impacto">
+            <div class="impacto-numeros">
+                <p class="number"><span>+200</span> <br> Jovens <br>Impactados</p>
+                <p class="number"><span>+15</span><br> Startups <br> Aceleradas</p>
+                <p class="number"><span>+10</span><br> Empregos <br>receberam <br>investimento</p>
+                <p class="number"><span>+100</span><br> Empregos <br>gerados</p>
+                <p class="number"><span>+10</span><br> Eventos <br>realizados</p>
+                <p class="number"><span>+100</span><br> Recomendações</p>
+                <!-- DUPLICADO -->
+                <p class="number"><span>+200</span> <br> Jovens <br>Impactados</p>
+                <p class="number"><span>+15</span><br> Startups <br> Aceleradas</p>
+                <p class="number"><span>+10</span><br> Empregos <br>receberam <br>investimento</p>
+                <p class="number"><span>+100</span><br> Empregos <br>gerados</p>
+                <p class="number"><span>+10</span><br> Eventos <br>realizados</p>
+                <p class="number"><span>+100</span><br> Recomendações</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-depoimentos">
+        <div class="eventos-fundo-escuro">
+            <h3>Depoimntos</h3>
+            <div class="depoimentos">
+                <div class="depoimento">
+                    <div class="perfil">
+                        <img src="img/perfil.jpg" alt="">
+                        <p><b>Guilmiro Valério</b><br>Fundador V-TEC</p>
+                    </div>
+                    <p class="content-depoimentos">O Business Drops não mudou só meu negócio, mudou minha visão </p>
+                </div>
+                <div class="depoimento">
+                    <div class="perfil">
+                        <img src="img/perfil.jpg" alt="">
+                        <p><b>Ismerai Martins</b><br>Fundador da Exodo</p>
+                    </div>
+                    <p class="content-depoimentos">O Business Drops foi uma verdadeira iniciativa para abrir o meu
+                        negocios
+                    </p>
+                </div>
+            </div>
+            <a href="">Ver mais histórias de transformação</a>
+        </div>
+    </div>
+    <div class="container-relatorios">
+        <h1>Novos insights e Relatórios</h1>
+        <input type="radio" class="inputs" id="insights">
+        <div class="relatorios">
+            <div class="relatorio">
+                <img src="img/fundo.jpg" alt="">
+                <p class="relatorio-text"><b>Lorem ipsum dolor sit amet consectetur adipisicing</b> </p>
+                <p class="relatorio-data">01 Abril 2025</p>
+            </div>
+            <div class="relatorio">
+                <img src="img/fundo.jpg" alt="">
+                <p class="relatorio-text"><b>Lorem ipsum dolor sit amet consectetur adipisicing</b> </p>
+                <p class="relatorio-data">01 Abril 2025</p>
+            </div>
+            <div class="relatorio">
+                <img src="img/fundo.jpg" alt="">
+                <p class="relatorio-text"><b>Lorem ipsum dolor sit amet consectetur adipisicing</b> </p>
+                <p class="relatorio-data">01 Abril 2025</p>
+            </div>
+        </div>
+    </div>
+    <div class="comunidade">
+        <div>
+            <h1>
+                Não perca mais tempo junte-se a Business Drops Community
+            </h1>
+            <a href="">Quero mi juntar</a>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4 class="footer-title">Business Drops</h4>
+                    <p class="footer-text">Conectando o ecossistema empreendedor para criar impacto real.</p>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="pages/sobre.html" class="footer-link">Quem somos</a></li>
+                        <li><a href="pages/programa.html" class="footer-link">Programa B.D</a></li>
+                        <li><a href="pages/oficina.html" class="footer-link">360 Graus</a></li>
+                        <li><a href="" class="footer-link">Inscrição</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Contato</h4>
+                    <ul class="footer-contacts">
+                        <li class="footer-contact"><i class="fas fa-envelope"></i>
+                            <span>contato@businessdrops.com</span>
+                        </li>
+                        <li class="footer-contact"><i class="fas fa-phone"></i> <span>+55 11 98765-4321</span></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Redes Sociais</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Business Drops. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <div class="box-start-video">
+        <div>
+            <p onclick="exitVideo()"><b>X</b></p>
+        </div>
+        <video src="videos/InShot_20241201_195508348.mp4" poster="img/fundo1.jpg" controls></video>
+    </div>
+</body>
+<script>
+    AOS.init();
+</script>
+
+</html>
